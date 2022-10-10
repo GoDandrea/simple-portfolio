@@ -37,6 +37,11 @@
     width: 50%;
     height: 100vh;
     overflow: hidden; }
+  .menu-nav {
+    margin: 0;
+    padding: 0;
+    background: #3a3a3a;
+    list-style: none; }
 
 * {
   box-sizing: border-box; }
