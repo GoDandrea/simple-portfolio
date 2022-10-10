@@ -32,3 +32,11 @@ header {
 
 .text-secondary {
   color: #eece1a; }
+
+main {
+  padding: 4rem;
+  height: 100%; }
+  main .icons {
+    margin-top: 1rem; }
+    main .icons a {
+      padding: 0.4rem; }
