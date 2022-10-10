@@ -54,6 +54,10 @@ main {
     margin-top: 1rem;
     a {
       padding: 0.4rem;
+
+      &:hover {
+        color: $secondary-color;
+      }
     }
   }
 }
