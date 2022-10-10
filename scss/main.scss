@@ -26,3 +26,15 @@ h3 {
     background: lighten($primary-color, 3);
   }
 }
+
+// Links
+a {
+  color: #fff;
+}
+
+// Header menu
+header {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+}
