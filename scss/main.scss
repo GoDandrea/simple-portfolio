@@ -120,7 +120,7 @@ main {
 // Work page grid
 .projects {
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 0.7rem;
   grid-template-columns: repeat(3, 1fr);
 
   img {
@@ -133,6 +133,30 @@ main {
       @include easeOut;
     }
   }
+}
+
+// Button styles
+.btn {
+  display: block;
+  padding: 0.5rem 1rem;
+  border: 0;
+  margin-bottom: 0.3rem;
+  &:hover {
+    background: $secondary-color;
+    color: contrasting-color($secondary-color);
+  }
+}
+
+.btn-dark {
+  @extend .btn;
+  background: darken($primary-color, 50);
+  color: #fff;
+}
+
+.btn-light {
+  @extend .btn;
+  background: lighten($primary-color, 50);
+  color: #333;
 }
 
 #main-footer {
