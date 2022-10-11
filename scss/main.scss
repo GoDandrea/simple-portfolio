@@ -111,3 +111,9 @@ main {
 .job-3 {
   grid-area: job3;
 }
+
+.job {
+  background: lighten($primary-color, 5);
+  padding: 0.5rem;
+  border-bottom: $secondary-color 5px solid;
+}
