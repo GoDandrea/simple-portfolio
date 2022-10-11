@@ -277,8 +277,13 @@ main {
     grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (max-width: 500px) {
-  main#home h1 {
-    margin-top: 10vh;
-    font-size: 4rem; }
+  main {
+    padding: 2rem; }
+    main #home h1 {
+      margin-top: 10vh;
+      font-size: 4rem; }
+    main .lg-heading {
+      margin-top: 1rem;
+      font-size: 4rem; }
   .projects {
     grid-template-columns: 1fr; } }
