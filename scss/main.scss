@@ -85,35 +85,35 @@ main {
     "avatar bio bio"
     "job1 job2 job3";
   grid-template-columns: repeat(3, 1fr);
-}
 
-.avatar {
-  grid-area: avatar;
-  margin: auto;
-  border-radius: 50%;
-  border: $secondary-color 3px solid;
-}
+  .avatar {
+    grid-area: avatar;
+    margin: auto;
+    border-radius: 50%;
+    border: $secondary-color 3px solid;
+  }
 
-.bio {
-  grid-area: bio;
-  font-size: 1.5rem;
-  line-height: 1.4;
-}
+  .bio {
+    grid-area: bio;
+    font-size: 1.5rem;
+    line-height: 1.4;
+  }
 
-.job-1 {
-  grid-area: job1;
-}
+  .job-1 {
+    grid-area: job1;
+  }
 
-.job-2 {
-  grid-area: job2;
-}
+  .job-2 {
+    grid-area: job2;
+  }
 
-.job-3 {
-  grid-area: job3;
-}
+  .job-3 {
+    grid-area: job3;
+  }
 
-.job {
-  background: lighten($primary-color, 5);
-  padding: 0.5rem;
-  border-bottom: $secondary-color 5px solid;
+  .job {
+    background: lighten($primary-color, 5);
+    padding: 0.5rem;
+    border-bottom: $secondary-color 5px solid;
+  }
 }
