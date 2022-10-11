@@ -135,6 +135,32 @@ main {
   }
 }
 
+// Contact page boxes
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem;
+
+  div {
+    font-size: 2rem;
+    border: 3px contrasting-color($primary-color) solid;
+    padding: 1.2rem 2.2rem;
+    margin-bottom: 3rem;
+    @include easeOut;
+
+    &:hover {
+      padding: 2rem 3rem;
+      background: $secondary-color;
+      color: contrasting-color($secondary-color);
+      span {
+        color: contrasting-color($secondary-color);
+      }
+    }
+  }
+}
+
 // Button styles
 .btn {
   display: block;
