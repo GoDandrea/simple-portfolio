@@ -1,10 +1,12 @@
-$primary-color: #444;
-$secondary-color: #eece1a;
+$primary-color: #edf0da;
+$secondary-color: #9b1719;
+$tertiary-color: #a89b8c;
 $show-home-image: true;
 $home-image: url(../img/background.jpg);
 $portrait: url(../img/portrait.jpg);
 $portrait_small: url(../img/portrait_small.jpg);
-$background-opacity: 0.8;
+$background-opacity: 0.7;
+$menu-opacity: 0.9;
 
 @mixin easeOut {
   transition: all 0.5s ease-out;

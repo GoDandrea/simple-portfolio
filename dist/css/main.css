@@ -9,7 +9,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #fff;
+    background: #000;
     transition: all 0.5s ease-out; }
   .menu-btn.close {
     transform: rotate(180deg); }
@@ -39,14 +39,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: rgba(58, 58, 58, 0.8);
+    background: rgba(155, 140, 123, 0.9);
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: rgba(68, 68, 68, 0.8);
+    background: rgba(168, 155, 140, 0.9);
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
@@ -56,26 +56,26 @@
       height: 250px;
       background: url(../img/portrait.jpg);
       border-radius: 50%;
-      border: solid 3px #eece1a; }
+      border: solid 3px #9b1719; }
   .menu .nav-item {
     transform: translate3d(400%, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #eece1a; }
+      color: #9b1719; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
     font-size: 30px;
     text-transform: uppercase;
     padding: 1rem;
-    font-weight: 300;
-    color: #fff;
+    font-weight: 400;
+    color: #000;
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #eece1a; }
+      color: #9b1719; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -93,8 +93,8 @@
   box-sizing: border-box; }
 
 body {
-  background: #444;
-  color: #fff;
+  background: #edf0da;
+  color: #000;
   height: 100%;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -111,7 +111,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(68, 68, 68, 0.8); }
+      background: rgba(237, 240, 218, 0.7); }
 
 h1,
 h2,
@@ -127,10 +127,10 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(76, 76, 76, 0.3); }
+    background: rgba(242, 244, 229, 0.3); }
 
 a {
-  color: #fff;
+  color: #000;
   text-decoration: none; }
 
 header {
@@ -139,7 +139,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #eece1a; }
+  color: #9b1719; }
 
 main {
   padding: 4rem;
@@ -149,7 +149,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #eece1a;
+        color: #9b1719;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
@@ -165,7 +165,7 @@ main {
     grid-area: avatar;
     margin: auto;
     border-radius: 50%;
-    border: #eece1a 3px solid; }
+    border: #9b1719 3px solid; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem;
@@ -177,9 +177,9 @@ main {
   .about-info .job-3 {
     grid-area: job3; }
   .about-info .job {
-    background: #515151;
+    background: #f6f7ec;
     padding: 0.5rem;
-    border-bottom: #eece1a 5px solid; }
+    border-bottom: #9b1719 5px solid; }
 
 .projects {
   display: grid;
@@ -187,10 +187,10 @@ main {
   grid-template-columns: repeat(3, 1fr); }
   .projects img {
     width: 100%;
-    border: 3px #fff solid; }
+    border: 3px #000 solid; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: #eece1a;
+      border-color: #9b1719;
       transition: all 0.5s ease-out; }
 
 .boxes {
@@ -201,16 +201,16 @@ main {
   margin-top: 1rem; }
   .boxes div {
     font-size: 2rem;
-    border: 3px #fff solid;
+    border: 3px #000 solid;
     padding: 1.2rem 2.2rem;
     margin-bottom: 3rem;
     transition: all 0.5s ease-out; }
     .boxes div:hover {
       padding: 2rem 3rem;
-      background: #eece1a;
-      color: #000; }
+      background: #9b1719;
+      color: #fff; }
       .boxes div:hover span {
-        color: #000; }
+        color: #fff; }
 
 .btn, .btn-dark, .btn-light {
   display: block;
@@ -218,22 +218,22 @@ main {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #eece1a;
-    color: #000; }
+    background: #9b1719;
+    color: #fff; }
 
 .btn-dark {
-  background: black;
+  background: #85903b;
   color: #fff; }
 
 .btn-light {
-  background: #c4c4c4;
+  background: white;
   color: #333; }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #2b2b2b;
-  color: #fff;
+  background: #dbe1b6;
+  color: #000;
   height: 60px; }
 
 @media screen and (min-width: 1171px) {
