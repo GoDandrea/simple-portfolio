@@ -1,11 +1,12 @@
-$primary-color: #edf0da;
+$primary-color: #d9ceba;
 $secondary-color: #9b1719;
 $tertiary-color: #a89b8c;
 $show-home-image: true;
-$home-image: url(../img/background.jpg);
-$portrait: url(../img/portrait.jpg);
-$portrait_small: url(../img/portrait_small.jpg);
-$background-opacity: 0.7;
+//$home-image: url(../img/background.jpg);
+$home-image: url(https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+$portrait: url(../img/portrait.png);
+$portrait_small: url(../img/portrait_small.png);
+$background-opacity: 0.75;
 $menu-opacity: 0.9;
 
 @mixin easeOut {

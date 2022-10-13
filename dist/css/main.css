@@ -52,9 +52,9 @@
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
     .menu-branding .portrait {
-      width: 250px;
-      height: 250px;
-      background: url(../img/portrait.jpg);
+      width: 400px;
+      height: 400px;
+      background: url(../img/portrait.png);
       border-radius: 50%;
       border: solid 3px #9b1719; }
   .menu .nav-item {
@@ -93,14 +93,14 @@
   box-sizing: border-box; }
 
 body {
-  background: #edf0da;
+  background: #d9ceba;
   color: #000;
   height: 100%;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../img/background.jpg);
+    background: url(https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
@@ -111,7 +111,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(237, 240, 218, 0.7); }
+      background: rgba(217, 206, 186, 0.75); }
 
 h1,
 h2,
@@ -127,7 +127,7 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(242, 244, 229, 0.3); }
+    background: rgba(222, 213, 196, 0.3); }
 
 a {
   color: #000;
@@ -177,7 +177,7 @@ main {
   .about-info .job-3 {
     grid-area: job3; }
   .about-info .job {
-    background: #f6f7ec;
+    background: #e2daca;
     padding: 0.5rem;
     border-bottom: #9b1719 5px solid; }
 
@@ -222,7 +222,7 @@ main {
     color: #fff; }
 
 .btn-dark {
-  background: #85903b;
+  background: #5f5035;
   color: #fff; }
 
 .btn-light {
@@ -232,7 +232,7 @@ main {
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #dbe1b6;
+  background: #c7b799;
   color: #000;
   height: 60px; }
 
@@ -267,7 +267,7 @@ main {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url(../img/portrait_small.jpg);
+      background: url(../img/portrait_small.png);
       width: 150px;
       height: 150px; }
   .about-info {
