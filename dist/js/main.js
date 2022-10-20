@@ -6,7 +6,13 @@ const menuBranding = document.querySelector(".menu-branding");
 const navItems = document.querySelectorAll(".nav-item");
 
 // Set initial menu state
-let showMenu = false;
+let showMenu;
+function setMenuStartingState() {
+  window.screen.width * window.devicePixelRatio > 1000
+    ? (showMenu = false)
+    : (showMenu = true);
+  toggleMenu();
+}
 
 // Menu button listener
 menuBtn.addEventListener("click", toggleMenu);
@@ -18,22 +24,20 @@ function toggleMenu() {
     menu.classList.add("show");
     menuNav.classList.add("show");
     menuBranding.classList.add("show");
-    
-    navItems.forEach(item => item.classList.add("show"));
+
+    navItems.forEach((item) => item.classList.add("show"));
 
     // Set menu state
     showMenu = true;
-  
   } else {
     menuBtn.classList.remove("close");
     menu.classList.remove("show");
     menuNav.classList.remove("show");
     menuBranding.classList.remove("show");
-    
-    navItems.forEach(item => item.classList.remove("show"));
+
+    navItems.forEach((item) => item.classList.remove("show"));
 
     // Set menu state
     showMenu = false;
-
   }
 }
