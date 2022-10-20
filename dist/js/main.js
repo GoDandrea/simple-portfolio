@@ -6,12 +6,9 @@ const menuBranding = document.querySelector(".menu-branding");
 const navItems = document.querySelectorAll(".nav-item");
 
 // Set initial menu state
-let showMenu;
+let showMenu = false;
 function setMenuStartingState() {
-  window.screen.width * window.devicePixelRatio > 1000
-    ? (showMenu = false)
-    : (showMenu = true);
-  toggleMenu();
+  if (window.innerWidth > 1170) toggleMenu();
 }
 
 // Menu button listener
