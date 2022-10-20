@@ -19,6 +19,12 @@
 
 // Desktops & Notebooks
 @include mediaLg {
+  .about-info {
+    .avatar {
+      width: 100%;
+    }
+  }
+
   .projects {
     grid-template-columns: repeat(3, 1fr);
   }

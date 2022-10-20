@@ -87,6 +87,7 @@ main {
 
   .avatar {
     grid-area: avatar;
+    width: 80%;
     margin: auto;
     border-radius: 50%;
     border: $secondary-color 3px solid;

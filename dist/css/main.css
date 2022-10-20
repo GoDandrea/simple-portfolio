@@ -163,6 +163,7 @@ main {
   grid-template-columns: repeat(3, 1fr); }
   .about-info .avatar {
     grid-area: avatar;
+    width: 80%;
     margin: auto;
     border-radius: 50%;
     border: #9b1719 3px solid; }
@@ -248,6 +249,8 @@ main {
       display: none; } }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
+  .about-info .avatar {
+    width: 100%; }
   .projects {
     grid-template-columns: repeat(3, 1fr); } }
 
