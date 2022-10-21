@@ -1,84 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <script
+      src="https://kit.fontawesome.com/737f4be823.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="css/main.css"
+    />
+    <title>Contact</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://kit.fontawesome.com/737f4be823.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="css/main.css">
-  <title>Contact</title>
-</head>
-
-<body>
-  <header>
-    <div class="menu-btn">
-      <div class="btn-line"></div>
-      <div class="btn-line"></div>
-      <div class="btn-line"></div>
-    </div>
-
-    <nav class="menu">
-      <div class="menu-branding">
-        <div class="portrait"></div>
+  <body>
+    <header>
+      <div class="menu-btn">
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
       </div>
-      <ul class="menu-nav">
-        <li class="nav-item">
-          <a href="index.html" class="nav-link">
-            Home
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="about.html" class="nav-link">
-            About me
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="work.html" class="nav-link">
-            My work
-          </a>
-        </li>
-        <li class="nav-item current">
-          <a href="contact.html" class="nav-link">
-            How to reach me
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </header>
 
-  <main id="about">
-    <h1 class="lg-heading">
-      Contact
-      <span class="text-secondary">me</span>
-    </h1>
-    <h2 class="sm-heading">
-      How to reach me
-    </h2>
-    <div class="boxes">
-      <div>
-        <span class="text-secondary">Email: </span>
-        <a href='mail&#116;&#111;&#58;dan&#100;%72%&#54;5a%2E%61lv%65%7&#51;%&#52;0gmail%2E%63&#111;m'>
-          &#100;an&#100;&#114;ea&#46;&#97;&#108;&#118;es&#64;gma&#105;l&#46;com
+      <nav class="menu">
+        <div class="menu-branding">
+          <div class="portrait"></div>
+        </div>
+        <ul class="menu-nav">
+          <li class="nav-item">
+            <a
+              href="index.html"
+              class="nav-link"
+            >
+              Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="about.html"
+              class="nav-link"
+            >
+              About me
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="work.html"
+              class="nav-link"
+            >
+              My work
+            </a>
+          </li>
+          <li class="nav-item current">
+            <a
+              href="contact.html"
+              class="nav-link"
+            >
+              How to reach me
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="about">
+      <h1 class="lg-heading">
+        Contact
+        <span class="text-secondary">me</span>
+      </h1>
+      <!-- <h2 class="sm-heading">How to reach me</h2> -->
+
+      <div class="icons">
+        <a href="https://www.linkedin.com/in/gabriel-d-andrea-4163aab8/">
+          <i class="fa-brands fa-linkedin fa-2x"></i>
+        </a>
+        <a href="https://github.com/GoDandrea">
+          <i class="fa-brands fa-github fa-2x"></i>
+        </a>
+        <a href="https://wa.me/5511980733392">
+          <i class="fa-brands fa-whatsapp fa-2x"></i>
         </a>
       </div>
-      <!-- <div>
-          <span class="text-secondary">Phone: </span>
-          (555) 555-5555
-        </div> -->
-      <div>
-        <span class="text-secondary">Address: </span>
-        São Paulo, SP - Brazil
-      </div>
-    </div>
-  </main>
 
-  <footer id="main-footer">
-    Copyright &copy; 2022
-  </footer>
+      <div
+        class="aidaform"
+        data-aidaform-widget="form-2019-12"
+        data-url="https://godandrea.aidaform.com/free-account-template-contact-form-with-captcha"
+        data-width="100%"
+        data-height="500px"
+        data-do-resize
+      ></div>
+      <script>
+        (function () {
+          var r,
+            d = document,
+            gt = d.getElementById,
+            cr = d.createElement,
+            tg = d.getElementsByTagName,
+            id = "aidaform-embed";
+          if (!gt.call(d, id)) {
+            r = cr.call(d, "script");
+            r.id = id;
+            r.src = "https://embed.aidaform.com/embed.js";
+            (d.head || tg.call(d, "head")[0]).appendChild(r);
+          }
+        })();
+      </script>
+    </main>
 
-  <script src="js/main.js"></script>
+    <footer id="main-footer">Copyright &copy; 2022</footer>
 
-</body>
-
+    <script src="js/main.js"></script>
+  </body>
 </html>
