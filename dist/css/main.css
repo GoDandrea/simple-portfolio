@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cardo:wght@300&display=swap");
 .menu-btn {
   position: absolute;
   z-index: 3;
@@ -97,7 +99,7 @@ body {
   color: #000;
   height: 100%;
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   line-height: 1.5; }
   body#bg-img {
     background: url(https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
@@ -121,6 +123,7 @@ h3 {
   h1.lg-heading,
   h2.lg-heading,
   h3.lg-heading {
+    font-family: "cardo", serif;
     font-size: 5rem; }
   h1.sm-heading,
   h2.sm-heading,
@@ -140,6 +143,9 @@ header {
 
 .text-secondary {
   color: #9b1719; }
+
+.serif-text {
+  font-family: "cardo", serif; }
 
 main {
   padding: 4rem;

@@ -9,6 +9,10 @@ $portrait_small: url(../img/portrait_small.png);
 $background-opacity: 0.75;
 $menu-opacity: 0.8;
 
+//$serif-font: "Abril Fatface", cursive;
+$serif-font: "cardo", serif;
+$sans-font: "Josefin Sans", sans-serif;
+
 @mixin easeOut {
   transition: all 0.5s ease-out;
 }
