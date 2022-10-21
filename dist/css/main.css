@@ -288,12 +288,15 @@ main {
   .projects {
     grid-template-columns: repeat(4, 1fr); }
   .menu {
-    width: 90%; }
+    width: 30%;
+    margin-left: 60vw;
+    margin-right: 10vw; }
     .menu-nav {
       float: right;
-      width: 30%; }
+      width: 100%; }
     .menu-branding {
-      display: none; }
+      display: none;
+      visibility: hidden; }
   .aidaform {
     margin-left: auto;
     margin-right: 5vw; } }

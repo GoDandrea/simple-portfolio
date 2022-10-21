@@ -5,14 +5,17 @@
   }
 
   .menu {
-    width: 90%;
+    width: 30%;
+    margin-left: 60vw;
+    margin-right: 10vw;
 
     &-nav {
       float: right;
-      width: 30%;
+      width: 100%;
     }
     &-branding {
       display: none;
+      visibility: hidden;
     }
   }
 
