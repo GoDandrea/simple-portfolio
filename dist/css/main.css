@@ -282,7 +282,9 @@ main {
   padding: 1rem;
   background: #c7b799;
   color: #000;
-  height: 60px; }
+  height: auto;
+  position: relative;
+  bottom: 0px; }
 
 @media screen and (min-width: 1171px) {
   .projects {
