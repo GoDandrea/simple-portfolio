@@ -181,6 +181,11 @@ main {
     grid-area: bio;
     font-size: 1.5rem;
     line-height: 1.4; }
+    .about-info .bio h3 {
+      font-size: 1.6rem; }
+    .about-info .bio a {
+      color: #9b1719;
+      text-decoration: underline; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {
@@ -191,6 +196,12 @@ main {
     background: #e2daca;
     padding: 0.5rem;
     border-bottom: #9b1719 5px solid; }
+    .about-info .job h3 {
+      font-size: 1.4rem; }
+    .about-info .job h6 {
+      font-size: 1rem;
+      margin-top: 0.4rem;
+      margin-bottom: 0.4rem; }
 
 .projects {
   display: grid;

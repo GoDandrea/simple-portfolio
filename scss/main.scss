@@ -107,6 +107,15 @@ main {
     grid-area: bio;
     font-size: 1.5rem;
     line-height: 1.4;
+
+    h3 {
+      font-size: 1.6rem;
+    }
+
+    a {
+      color: $secondary-color;
+      text-decoration: underline;
+    }
   }
 
   .job-1 {
@@ -125,6 +134,14 @@ main {
     background: lighten($primary-color, 5);
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
+    h3 {
+      font-size: 1.4rem;
+    }
+    h6 {
+      font-size: 1rem;
+      margin-top: 0.4rem;
+      margin-bottom: 0.4rem;
+    }
   }
 }
 
