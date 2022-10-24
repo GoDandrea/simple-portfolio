@@ -165,7 +165,7 @@ main {
     }
 
     &:hover img {
-      opacity: 0.5;
+      opacity: 0.3;
       border-color: $secondary-color;
       @include easeOut;
     }
@@ -207,9 +207,12 @@ main {
     justify-content: center;
     @include easeOut;
 
-    .p {
+    p {
       transform: translateY(1em);
       text-align: center;
+      font-size: large;
+      font-weight: 400;
+      vertical-align: middle;
     }
   }
 }
@@ -255,6 +258,11 @@ main {
     background: $secondary-color;
     color: contrasting-color($secondary-color);
   }
+}
+
+.unavailable:hover {
+  background: #888;
+  cursor: not-allowed;
 }
 
 .btn-dark {

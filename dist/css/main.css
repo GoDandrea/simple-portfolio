@@ -216,7 +216,7 @@ main {
     .projects .item:hover .p {
       transform: translateY(0); }
     .projects .item:hover img {
-      opacity: 0.5;
+      opacity: 0.3;
       border-color: #9b1719;
       transition: all 0.5s ease-out; }
   .projects img {
@@ -245,9 +245,12 @@ main {
     align-items: center;
     justify-content: center;
     transition: all 0.5s ease-out; }
-    .projects .img-text .p {
+    .projects .img-text p {
       transform: translateY(1em);
-      text-align: center; }
+      text-align: center;
+      font-size: large;
+      font-weight: 400;
+      vertical-align: middle; }
 
 .boxes {
   display: flex;
@@ -279,6 +282,10 @@ main {
   .btn:hover, .btn-dark:hover, .btn-light:hover {
     background: #9b1719;
     color: #fff; }
+
+.unavailable:hover {
+  background: #888;
+  cursor: not-allowed; }
 
 .btn-dark {
   background: #5f5035;
